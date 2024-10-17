@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #bdd1d4;
+    margin: 2rem;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.wrapper{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+img {
+    width: 4rem;
+}
+header{
+    display: flex;
+    margin-bottom: 1rem;
+}
+header>div>h1{
+    color:#fcf403
+}
+header>div>h6{
+    color: rgb(130, 130, 7);
+}
+header>img {
+    margin-right: 1rem
+
+}
+
+#tabs button {
+    margin: 0px;
+    background-color: #282f33;
+    padding: 10px;
+    border: none;
+    border-radius: 4px 4px 0 0; 
+    color: #e0eff1;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+#tab-content{
+    width: 400px;
+    min-height: 50px;
+    background-color:#4d5152;
+    
+    padding: 10px 10px  10px 20px;
+}
+
+
+#tabs button:hover,
+#tabs button.active {
+  background-color: #f3e248;
+  color: #273133;
+}
+#tab-content li {
+    line-height: 1.5;
+}
